@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <style>
+            @import url('http://fonts.cdnfonts.com/css/cursed-timer-ulil');
+            </style>
+                
+        <link rel="stylesheet" href="basketball.css">
+        <title>BasketBall ScoreBoard</title>
+
+    </head>
+    <body>
+        <div class = 'container'>
+
+            <h1 class = 'text'></h1>
+            <div class = 'scoreboard'>
+
+                <div class ='team-container'>
+
+                    <h2 class ='text'>HOME</h2>
+                    <div class = 'one'>
+                        <p class = 'pts' id = 'homeScore'>0</p>
+                        <p class="pts-shadow">000</p>
+                    </div>
+
+                    <div class ='two'>
+                        <button id = 'one-pt' onclick = 'add1home()'>+1</button>
+                        <button id = 'two-pt' onclick = 'add2home()'>+2</button>
+                        <button id = 'three-pt' onclick = 'add3home()'>+3</button>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class = 'container'>
+
+            <h1 class = 'text'></h1>
+            <div class = 'scoreboard'>
+
+                <div class ='team-container'>
+
+                    <h2 class ='text'>GUEST</h2>
+                    <div class = 'one'>
+                        <p class = 'pts' id = 'guestScore'>0</p>
+                        <p class="pts-shadow">000</p>
+                    </div>
+
+                    <div class ='two'>
+                        <button id = 'one-pt' onclick = 'add1guest()'>+1</button>
+                        <button id = 'two-pt' onclick = 'add2guest()'>+2</button>
+                        <button id = 'three-pt' onclick = 'add3guest()'>+3</button>
+
+                    </div>
+
+                    
+                </div>
+            </div>
+            
+        </div>
+    </body>
+    <script src="basketball.js"></script>
+</html>
